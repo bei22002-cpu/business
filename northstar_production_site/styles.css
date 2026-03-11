@@ -1,0 +1,8 @@
+
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f8ff; color:#002244; }
+header { background:#003d99; color:white; padding:40px 20px; text-align:center; }
+nav { background:#002f73; padding:10px; text-align:center; }
+nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+section { padding:40px 20px; max-width:900px; margin:auto; }
+#hero { background:white; border:1px solid #ccd; border-radius:8px; text-align:center; }
+footer { background:#001a33; color:white; text-align:center; padding:20px; margin-top:40px; }
