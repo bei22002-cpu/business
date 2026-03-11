@@ -1,15 +1,15 @@
 
 :root {
-	--bg: #f6efe3;
-	--surface: rgba(255, 252, 247, 0.82);
-	--surface-strong: #fffaf2;
-	--ink: #14213d;
-	--muted: #5b6475;
-	--line: rgba(20, 33, 61, 0.12);
-	--accent: #0d3b66;
-	--accent-strong: #8d3b12;
-	--accent-soft: #f0d5b6;
-	--shadow: 0 24px 60px rgba(20, 33, 61, 0.14);
+	--bg: #f0f4fc;
+	--surface: rgba(255, 255, 255, 0.85);
+	--surface-strong: #ffffff;
+	--ink: #1b3a78;
+	--muted: #4a6080;
+	--line: rgba(27, 58, 120, 0.12);
+	--accent: #1b3a78;
+	--accent-strong: #2196f3;
+	--accent-soft: #dbeafe;
+	--shadow: 0 24px 60px rgba(27, 58, 120, 0.14);
 }
 
 * {
@@ -25,9 +25,9 @@ body {
 	font-family: "Manrope", "Segoe UI", sans-serif;
 	color: var(--ink);
 	background:
-		radial-gradient(circle at top left, rgba(240, 213, 182, 0.9), transparent 28%),
-		radial-gradient(circle at top right, rgba(13, 59, 102, 0.14), transparent 22%),
-		linear-gradient(180deg, #f8f2e8 0%, #f2eadf 100%);
+		radial-gradient(circle at top left, rgba(33, 150, 243, 0.09), transparent 28%),
+		radial-gradient(circle at top right, rgba(27, 58, 120, 0.07), transparent 22%),
+		linear-gradient(180deg, #f5f8ff 0%, #edf3ff 100%);
 }
 
 a {
@@ -195,8 +195,8 @@ a {
 .hero-panel {
 	align-self: end;
 	padding: 1.4rem;
-	background: linear-gradient(180deg, rgba(13, 59, 102, 0.96), rgba(9, 39, 68, 0.96));
-	color: #f8f3eb;
+	background: linear-gradient(180deg, rgba(27, 58, 120, 0.96), rgba(10, 28, 70, 0.96));
+	color: #f0f4ff;
 }
 
 .panel-list {
@@ -212,14 +212,14 @@ a {
 }
 
 .section-contrast {
-	background: linear-gradient(180deg, rgba(13, 59, 102, 0.95), rgba(28, 52, 79, 0.92));
-	color: #f7efe3;
+	background: linear-gradient(180deg, rgba(27, 58, 120, 0.95), rgba(15, 38, 90, 0.92));
+	color: #f0f4ff;
 }
 
 .section-contrast .eyebrow,
 .section-contrast p,
 .section-contrast .step-index {
-	color: rgba(247, 239, 227, 0.82);
+	color: rgba(240, 244, 255, 0.82);
 }
 
 .section-heading {
@@ -371,7 +371,7 @@ a {
 	gap: 0.2rem;
 	padding: 0.95rem 1.1rem;
 	border: 1px solid rgba(255, 255, 255, 0.45);
-	background: linear-gradient(180deg, rgba(13, 59, 102, 0.98), rgba(9, 39, 68, 0.98));
+	background: linear-gradient(180deg, rgba(27, 58, 120, 0.98), rgba(10, 28, 70, 0.98));
 	color: #fff;
 	box-shadow: var(--shadow);
 	cursor: pointer;
@@ -391,14 +391,14 @@ a {
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	font-weight: 800;
-	color: rgba(247, 239, 227, 0.78);
+	color: rgba(240, 244, 255, 0.78);
 }
 
 .chatbot-panel {
 	width: 100%;
 	padding: 1rem;
-	background: rgba(20, 33, 61, 0.96);
-	color: #f7efe3;
+	background: rgba(27, 58, 120, 0.96);
+	color: #f0f4ff;
 	border: 1px solid rgba(255, 255, 255, 0.12);
 	box-shadow: var(--shadow);
 	backdrop-filter: blur(14px);
@@ -419,10 +419,10 @@ a {
 
 .chatbot-close {
 	padding: 0.55rem 0.8rem;
-	border: 1px solid rgba(247, 239, 227, 0.16);
+	border: 1px solid rgba(240, 244, 255, 0.16);
 	border-radius: 999px;
 	background: transparent;
-	color: #f7efe3;
+	color: #f0f4ff;
 	cursor: pointer;
 	font: inherit;
 	font-weight: 700;
@@ -492,7 +492,7 @@ a {
 	border-radius: 999px;
 	border: 1px solid rgba(255, 255, 255, 0.14);
 	background: rgba(255, 255, 255, 0.04);
-	color: #f7efe3;
+	color: #f0f4ff;
 	font: inherit;
 	font-size: 0.92rem;
 	cursor: pointer;
@@ -506,7 +506,7 @@ a {
 .chatbot-label {
 	font-size: 0.92rem;
 	font-weight: 700;
-	color: rgba(247, 239, 227, 0.78);
+	color: rgba(240, 244, 255, 0.78);
 }
 
 .chatbot-input-row {
@@ -527,7 +527,7 @@ a {
 }
 
 .chatbot-input-row input::placeholder {
-	color: rgba(247, 239, 227, 0.6);
+	color: rgba(240, 244, 255, 0.6);
 }
 
 .reveal-on-scroll {
