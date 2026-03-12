@@ -1,0 +1,9 @@
+{
+  "name": "northstar-site-functions",
+  "version": "1.0.0",
+  "description": "Serverless functions for NorthStar Consulting site",
+  "main": "netlify/functions/submit-lead.js",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  }
+}
